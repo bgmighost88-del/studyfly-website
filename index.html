@@ -180,6 +180,34 @@
             </div>
         </section>
 
+        <!-- === 🔴 قسم الفيديو التعريفي (جديد) === -->
+        <section class="py-24 bg-gray-50 rounded-3xl my-16 md:my-24">
+            <div class="container mx-auto px-6">
+                <h2 data-scroll-anim="fade-in-up" class="text-center text-3xl md:text-4xl mb-4 font-bold text-gray-900">
+                    شاهد رحلتك مع <span class="text-[#00d2b6]">Study Fly</span>
+                </h2>
+                <p data-scroll-anim="fade-in-up" style="transition-delay: 100ms;" class="text-center text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                    نقدم لك نظرة عامة عن خدماتنا وكيف نساعدك خطوة بخطوة.
+                </p>
+
+                <!-- === 🟢 تم دمج الـ style هنا === -->
+                <div data-scroll-anim="fade-in-up" class="relative overflow-hidden rounded-2xl shadow-2xl max-w-5xl mx-auto" style="transition-delay: 200ms; padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/6N87wj1fVvI" 
+                        title="فيديو تعريفي - Study Fly" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                    <!-- === 🟢 نهاية التعديل === -->
+                </div>
+            </div>
+        </section>
+        <!-- === 🔴 نهاية قسم الفيديو === -->
+
+
         <!-- === قسم الدول والجامعات === -->
         <section id="specializations" class="w-fit mx-auto py-24 bg-gray-50 rounded-3xl">
             <div class="container mx-auto px-6">
@@ -368,13 +396,30 @@
         <div id="uni-khartoum" class="university-page hidden min-h-screen p-6 md:p-12">
             <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
             <div class="bg-white rounded-xl shadow-xl p-8">
-			<ul class="list-disc list-inside space-y-2 text-lg mb-8">
-                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الحصاحيصا</h2>
+			    <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الحصاحيصا</h2>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                 <li>توفر جامعة الحصاحيصا للعلوم الطبية والتكنولوجيا برامج أكاديمية تم اختيارها بناءاً على الاحتياجات الفعلية للمجتمع وقد تم تصميم المناهج التعليمية بجودة عالية تراعي التطورات التي تحدث لكل برنامج أكاديمي على المستويات المحلية والإقليمية والعالمية.</li>
 				<li>تستقبل الكلية الطلاب من السودان ودول الاقليم في بيئة تعليمية هادئة وودية وهادفة حيث يشارك الجميع في أنشطتهم التعليمية والاجتماعية بكل حب وتفان.</li>
 				<li> قامت الكلية بتخريج عدة دفعات من منسوبيها ونفخر كثيرا بخريجينا الذين أثبتوا كفاءة وجدارة عالية في حياتهم المهنية.</li>
                 </ul>
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر KHARTOUM_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة الحصاحيصا" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-xl mb-8">
                     <li>كلية الطب والجراحة</li>
                     <li>كلية التمريض</li>
@@ -412,7 +457,24 @@
             <div class="bg-white rounded-xl shadow-xl p-8">
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة جاردن سيتي</h2>
                 <p class="text-lg text-gray-700 mb-8">جامعة قاردن سيتي هي جامعة سودانية خاصة تقع في حي بري (امتداد ناصر). تأسست بموجب مرسوم حكومي عام 2003 باسم «كلية قاردن سيتي للعلوم والتقنية» كمؤسسة تعليم عال خاصة ، متعددة الثقافات والتخصصات وتمنح فرصاً متساوية لجميع الدارسين. في العام 2015 تم ترفيع الكلية إلى «جامعة قاردن سيتي» بقرار من وزارة التعليم العالي والبحث العلمي السودانية.</p>
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر SUDAN_GARDEN_CITY_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة جاردن سيتي" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
 				<li>كلية الطب البشري</li>
                 <li>كلية طب الاسنان</li>
@@ -458,7 +520,23 @@
 				<p class="text-lg text-gray-700 mb-2">تعتمد نظام الدراسة بالموديولات الحديثة لمدة خمس سنوات تتبعها سنتان تدريبية (الامتياز) للحصول على بكالوريوس الطب والجراحة.</p>
 				<p class="text-lg text-gray-700 mb-2">تفتح الجامعة أبواب التسجيل في كليات أخرى مثل طب الأسنان والصيدلة. </p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر ARAB_MEDICAL_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة العرب الطبية" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>كلية الطب البشري</li>
 					<li>كلية طب الفم والأسنان</li>
@@ -500,7 +578,23 @@
                 <p class="text-lg text-gray-700 mb-2">جامعة السلام الدولية - بنغازي هي صرح تعليمي خاص أسست عام 2017م.</p>
                 <p class="text-lg text-gray-700 mb-2">معتمدة محليًا من مركز ضمان الجودة، وحصلت مؤخرًا على الاعتماد الدولي.</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر ALSALAM_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة السلام الدولية" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>كلية الصيدلة</li>
 					<li>كلية العلاج الطبيعي</li>
@@ -540,7 +634,23 @@
                 <p class="text-lg text-gray-700 mb-2">جامعة التحدي الطبية الأهلية هي جامعة خاصة في بنغازي، ليبيا.</p>
                 <p class="text-lg text-gray-700 mb-2"> تأسست الجامعة منذ حوالي 25 عامًا.</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر TAHADI_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة التحدي" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>كلية طب الفم والأسنان</li>
 					<li>كلية الصيدلة</li>
@@ -578,7 +688,23 @@
                 <p class="text-lg text-gray-700 mb-2">جامعة قورينا الدولية هي جامعة خاصة أنشئت في بنغازي عام 2017.</p>
 				<p class="text-lg text-gray-700 mb-2">تركز بشكل أساسي على التخصصات الطبية.</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر QURINA_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">اليوم العلمي للكليات الطبية بجامعة قورينا</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+    class="absolute top-0 left-0 w-full h-full" 
+    src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+    title="Test Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+</iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>كلية طب الفم والأسنان</li>
 					<li>كلية الصيدلة</li>
@@ -617,7 +743,23 @@
                 <p class="text-lg text-gray-700 mb-2">جامعة أفريقيا الأهلية في بنغازي هي أول جامعة خاصة معتمدة في ليبيا.</p>
 				<p class="text-lg text-gray-700 mb-2">تأسست عام 2000 وتُعرف بمستواها التعليمي المتميز.</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر AFRIQIYA_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة افريقيا" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>كلية الصيدلة</li>
 					<li>كلية الهندسة المعمارية</li>
@@ -659,7 +801,23 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة آسيا الدولية فى بخارى</h2>
                 <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر ASIA_BUKHARA_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة آسيا الدولية فى بخارى" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>... (أضف التخصص 1) ...</li>
                 </ul>
@@ -683,7 +841,23 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الفراجانوس طشقند</h2>
                 <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر ALFARAJANOUS_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة الفراجانوس طشقند" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>... (أضف التخصص 1) ...</li>
                 </ul>
@@ -707,7 +881,23 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الابتكار بخارى</h2>
                 <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر INNOVATION_BUKHARA_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن الجامعة</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن جامعة الابتكار بخارى" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>... (أضف التخصص 1) ...</li>
                 </ul>
@@ -731,7 +921,23 @@
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">معهد طب الأطفال</h2>
                 <p class="text-lg text-gray-700 mb-8">... (أضف وصف المعهد هنا) ...</p>
                 
-                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <!-- 🔴 قسم الفيديو التعريفي (جديد) 🔴 -->
+                <!-- غيّر PEDIATRIC_VIDEO_ID بالـ ID الخاص بفيديو يوتيوب -->
+                <h3 class="text-3xl font-bold text-gray-800 mb-6 mt-10">فيديو تعريفي عن المعهد</h3>
+                <div class="relative overflow-hidden rounded-2xl shadow-lg" style="padding-top: 56.25%;"> <!-- نسبة العرض إلى الارتفاع 16:9 -->
+                    <iframe 
+                        class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/lJ0yD-9CDwI" 
+                        title="فيديو تعريفي عن معهد طب الأطفال" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- 🔴 نهاية قسم الفيديو 🔴 -->
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-4 mt-10">التخصصات المتاحة</h3>
                 <ul class="list-disc list-inside space-y-2 text-lg mb-8">
                     <li>... (أضف التخصص 1) ...</li>
                 </ul>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Study Fly - السفر الأكاديمي </title>
+    <title>Study Fly - للدراسة الأكاديمية </title>
     
     <!-- تحميل Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -95,8 +95,7 @@
         <!-- حاوية الجزيئات المتحركة -->
         <div id="tsparticles" class="absolute inset-0 z-0"></div>
         
-        <!-- === تم تعديل الحشو (padding) هنا - من py-24 إلى py-20 على الشاشات الصغيرة === -->
-        <div class="container mx-auto px-6 py-20 md:py-32 relative z-10 text-center">
+        <div class="container mx-auto px-6 py-24 md:py-32 relative z-10 text-center">
             
             <div data-scroll-anim="fade-in-up" class="flex justify-center items-center gap-4 mb-5">
                 <svg class="w-20 h-20 text-[#00d2b6] transform -rotate-30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
@@ -105,7 +104,7 @@
                 <h1 class="text-5xl md:text-7xl font-bold">Study Fly</h1>
             </div>
             
-            <h2 data-scroll-anim="fade-in-up" style="transition-delay: 100ms;" class="text-3xl md:text-4xl font-bold text-gray-200 mb-6">السفر الأكاديمي</h2>
+            <h2 data-scroll-anim="fade-in-up" style="transition-delay: 100ms;" class="text-3xl md:text-4xl font-bold text-gray-200 mb-6">للدراسة الأكاديمية</h2>
             <p data-scroll-anim="fade-in-up" style="transition-delay: 200ms;" class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-10">
                 وجهتك الموثوقة للدراسة في الخارج، نساعدك في تسهيل إجراءات السفر والقبول الجامعي.
             </p>
@@ -129,8 +128,7 @@
     <main class="container mx-auto px-6 py-16 md:py-24">
         
         <!-- قسم الميزات الرئيسية (Features) -->
-        <!-- === تم تعديل الهامش السلبي (negative margin) هنا - أصبح متجاوباً === -->
-        <section class="py-16 bg-slate-50 rounded-3xl -mt-32 md:-mt-48 relative z-10 shadow-xl">
+        <section class="py-16 bg-slate-50 rounded-3xl -mt-48 relative z-10 shadow-xl">
             <div class="container mx-auto px-6">
                 <h2 data-scroll-anim="fade-in-up" class="text-center text-3xl md:text-4xl mb-12 font-bold text-gray-900">
                     لماذا تختار <span class="text-[#00d2b6]">Study Fly</span> ؟
@@ -174,16 +172,16 @@
                     <h3 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">رسالتنا: بناء مستقبل مشرق</h3>
                     <p class="text-xl text-gray-600 mb-8">نؤمن بأن التعليم هو مفتاح التطور. هدفنا هو تذليل الصعاب أمام الطلاب العرب الطموحين لتحقيق أحلامهم الأكاديمية في بيئات دراسية ممتازة.</p>
                     <ul class="space-y-4 text-lg">
-                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> توفير فرص تعليم عالية الجودة.</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> دعم  دائم للطلاب.</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> بناء جسور بين الثقافات المختلفة.</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> توفير فرص تعليم عالية الجودة بأفضل المؤسسات التعليمية العالمية.</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> توفير بيئة دعم متكاملة تضمن النجاح الأكاديمي والشخصي للطلاب.</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle me-3 text-[#00d2b6] text-xl"></i> المساهمة في خلق جيل من الخريجين القادرين على المنافسة عالمياً.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
         <!-- === قسم الدول والجامعات === -->
-        <section id="specializations" class="py-24 bg-gray-50 rounded-3xl">
+        <section id="specializations" class="w-fit mx-auto py-24 bg-gray-50 rounded-3xl">
             <div class="container mx-auto px-6">
                 <h2 data-scroll-anim="fade-in-up" class="text-center text-3xl md:text-4xl mb-4 font-bold text-gray-900">الجامعات المتاحة حسب الدول</h2>
                 <p data-scroll-anim="fade-in-up" style="transition-delay: 100ms;" class="text-center text-xl text-gray-600 mb-12 max-w-3xl mx-auto">اكتشف الجامعات التي نتعامل معها في وجهاتنا الرئيسية.</p>
@@ -208,22 +206,27 @@
                     <!-- محتوى السودان -->
                     <!-- === تم تعديل data-state هنا === -->
                     <div id="sudan" class="tab-content" data-state="inactive">
-                        <h3 class="text-center text-2xl mb-10 font-bold text-gray-700">الجامعات المتاحة في السودان</h3>
+                        <h3 class="text-center text-2xl mb-5 font-bold text-gray-700">الجامعات المتاحة في السودان</h3>
+						<h4 class="text-center text-l mb-5 font-bold text-gray-600">تصفح التخصصات المتاحة في كل جامعة</h4>
                         
                         <!-- كروت الجامعات -->
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                             <!-- جامعة 1 -->
                             <a href="#" class="university-card-link" data-page-target="uni-khartoum">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/9MBTNWpv/hs.png" alt="جامعة الحصاحيصا" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة الحصاحيصا</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/NG7gzdXf/hs.png" alt="جامعة الحصاحيصا" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة الحصاحيصا</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 2 -->
                             <a href="#" class="university-card-link" data-page-target="uni-sudan">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/021a30/ffffff?text=جامعة+السودان" alt="جامعة جارد سيتي" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة جاردن سيتي</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/59Pd1CNQ/university-of-garden-city-logo-1.jpg" alt="جامعة جارد سيتي" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة جاردن سيتي</h5></div>
                                 </div>
                             </a>
                         </div>
@@ -232,34 +235,53 @@
                     <!-- محتوى ليبيا -->
                     <!-- === تم تعديل data-state هنا === -->
                     <div id="libya" class="tab-content" data-state="active">
-                        <h3 class="text-center text-2xl mb-10 font-bold text-gray-700">الجامعات المتاحة في ليبيا</h3>
+                        <h3 class="text-center text-2xl mb-5 font-bold text-gray-700">الجامعات المتاحة في ليبيا</h3>
+						<h4 class="text-center text-l mb-5 font-bold text-gray-600">تصفح التخصصات المتاحة في كل جامعة</h4>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                             <!-- جامعة 1 -->
                             <a href="#" class="university-card-link" data-page-target="uni-tripoli">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/00d2b6/021a30?text=جامعة+طرابلس" alt="جامعة طرابلس" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة طرابلس</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/26Y5hBPB/ʿ.png" alt="جامعة العرب الطبية" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة العرب الطبية</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 2 -->
                             <a href="#" class="university-card-link" data-page-target="uni-benghazi">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/021a30/ffffff?text=جامعة+بنغازي" alt="جامعة بنغازي" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة بنغازي</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/jjtVhQSQ/s.png" alt="جامعة السلام الدولية" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة السلام الدولية</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 3 -->
                             <a href="#" class="university-card-link" data-page-target="uni-misrata">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/00d2b6/021a30?text=جامعة+مصراتة" alt="جامعة مصراتة" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة مصراتة</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/hvjM4h45/t.png" alt="جامعة التحدي" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة التحدي</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 4 -->
                             <a href="#" class="university-card-link" data-page-target="uni-libya-international">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/021a30/ffffff?text=الجامعة+الدولية" alt="الجامعة الدولية" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">الجامعة الدولية</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/T3YgW1zy/q.png" alt="جامعة قورينا" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة قورينا</h5></div>
+                                </div>
+                            </a>
+							<!-- جامعة 5 -->
+                            <!-- === 🟢 التعديل 3: تم تغيير data-page-target هنا === -->
+                            <a href="#" class="university-card-link" data-page-target="uni-afriqiya">
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/TwkZfKvB/f.png" alt="جامعة افريقيا" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة افريقيا</h5></div>
                                 </div>
                             </a>
                         </div>
@@ -267,34 +289,43 @@
 
                     <!-- محتوى أوزبكستان -->
                     <div id="uzbekistan" class="tab-content" data-state="inactive">
-                        <h3 class="text-center text-2xl mb-10 font-bold text-gray-700">الجامعات المتاحة في أوزبكستان</h3>
+                        <h3 class="text-center text-2xl mb-5 font-bold text-gray-700">الجامعات المتاحة في أوزبكستان</h3>
+						<h4 class="text-center text-l mb-5 font-bold text-gray-600">تصفح التخصصات المتاحة في كل جامعة</h4>
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                             <!-- جامعة 1 -->
                             <a href="#" class="university-card-link" data-page-target="uni-tashkent-medical">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/00d2b6/021a30?text=أكاديمية+طشقند" alt="أكاديمية طشقند" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">أكاديمية طشقند الطبية</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/tJGyL133/asya.png" alt="جامعة آسيا الدولية فى بخارى" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة آسيا الدولية فى بخارى</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 2 -->
                             <a href="#" class="university-card-link" data-page-target="uni-samarkand-medical">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/021a30/ffffff?text=معهد+سمرقند" alt="معهد سمرقند" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">معهد سمرقند الطبي</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/y8RFhtfR/fr.png" alt="جامعة الفراجانوس طشقند" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة الفراجانوس طشقند</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 3 -->
                             <a href="#" class="university-card-link" data-page-target="uni-tashkent-it">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
-                                    <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/00d2b6/021a30?text=جامعة+طشقند+IT" alt="جامعة طشقند IT" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">جامعة طشقند لتقنية المعلومات</h5></div>
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
+                                    <div class="h-48 overflow-hidden"><img src="https://i.postimg.cc/zDpp3sMS/i.png" alt="جامعة الابتكار بخارى" class="w-full h-full object-cover"></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">جامعة الابتكار بخارى</h5></div>
                                 </div>
                             </a>
                             <!-- جامعة 4 -->
                             <a href="#" class="university-card-link" data-page-target="uni-tashkent-pediatric">
-                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+                                <!-- === 🟢 التعديل 1: تمت إضافة h-full flex flex-col === -->
+                                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 h-full flex flex-col">
                                     <div class="h-48 overflow-hidden"><img src="https://placehold.co/400x300/021a30/ffffff?text=معهد+طب+الأطفال" alt="معهد طب الأطفال" class="w-full h-full object-cover"></div>
-                                    <div class="p-4 text-center"><h5 class="text-xl font-bold text-gray-900">معهد طب الأطفال</h5></div>
+                                    <!-- === 🟢 التعديل 2: تمت إضافة flex flex-col justify-center === -->
+                                    <div class="p-4 text-center flex-grow flex flex-col justify-center"><h5 class="text-xl font-bold text-gray-900">معهد طب الأطفال</h5></div>
                                 </div>
                             </a>
                         </div>
@@ -353,23 +384,23 @@
                 <!-- معرض الصور التفاعلي -->
                 <!-- === تم تعديل كود الصور هنا === -->
                 <div class="gallery-grid">
-                    <div class="gallery-item-card" data-image-url="https://i.postimg.cc/597QHKRM/hsdh.png" data-caption="جامعة الحصاحيصا">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/597QHKRM/hsdh.png" data-caption="جامعة الحصاحيصا">
                         <div class="gallery-img-container">
                             <img src="https://i.postimg.cc/597QHKRM/hsdh.png" alt="صورة 1">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">جامعة الحصاحيصا</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">جامعة الحصاحيصا</h6></div>
                     </div>
-                    <div class="gallery-item-card" data-image-url="https://i.postimg.cc/Y9X0Wj8g/hs3.png" data-caption="شرح سكشن للطلاب">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/Y9X0Wj8g/hs3.png" data-caption="شرح احد السكاشن للطلاب">
                         <div class="gallery-img-container">
                             <img src="https://i.postimg.cc/Y9X0Wj8g/hs3.png" alt="صورة 2">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">شرح سكشن للطلاب</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">شرح احد السكاشن للطلاب</h6></div>
                     </div>
-                    <div class="gallery-item-card" data-image-url="https://i.postimg.cc/gjXzLsxp/hs2.png" data-caption="أحد المعامل">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/gjXzLsxp/hs2.png" data-caption="أحد معامل الجامعه">
                         <div class="gallery-img-container">
                             <img src="https://i.postimg.cc/gjXzLsxp/hs2.png" alt="صورة 3">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">أحد المعامل</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد معامل الجامعه</h6></div>
                     </div>
                 </div>
             </div>
@@ -379,39 +410,345 @@
         <div id="uni-sudan" class="university-page hidden min-h-screen p-6 md:p-12">
             <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
             <div class="bg-white rounded-xl shadow-xl p-8">
-                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة السودان</h2>
-                <p class="text-lg text-gray-700 mb-8">[...هنا تضع البيانات الخاصة بجامعة السودان...]</p>
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة جاردن سيتي</h2>
+                <p class="text-lg text-gray-700 mb-8">جامعة قاردن سيتي هي جامعة سودانية خاصة تقع في حي بري (امتداد ناصر). تأسست بموجب مرسوم حكومي عام 2003 باسم «كلية قاردن سيتي للعلوم والتقنية» كمؤسسة تعليم عال خاصة ، متعددة الثقافات والتخصصات وتمنح فرصاً متساوية لجميع الدارسين. في العام 2015 تم ترفيع الكلية إلى «جامعة قاردن سيتي» بقرار من وزارة التعليم العالي والبحث العلمي السودانية.</p>
                 <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
-                <ul class="list-disc list-inside space-y-2 text-lg mb-8"><li>[...تخصص...]</li></ul>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+				<li>كلية الطب البشري</li>
+                <li>كلية طب الاسنان</li>
+				<li>كلية التمريض</li>
+				<li>كلية الهندسة المدنية.</li>
+				<li>كلية الهندسة الطبية</li>
+				<li>كلية هندسة العمارة</li>
+				</ul>
 
                 <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
                 <!-- === تم تعديل كود الصور هنا === -->
                 <div class="gallery-grid">
-                    <div class="gallery-item-card" data-image-url="https://placehold.co/400x300/00d2b6/021a30?text=صورة+1" data-caption="وصف الصورة 1">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/sXxFZjTg/jardn2.jpg" data-caption="جامعة جارد سيتي">
                         <div class="gallery-img-container">
-                            <img src="https://placehold.co/400x300/00d2b6/021a30?text=صورة+1" alt="صورة 1">
+                            <img src="https://i.postimg.cc/sXxFZjTg/jardn2.jpg" alt="صورة 1">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">وصف الصورة 1</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">جامعة جارد سيتي</h6></div>
                     </div>
-                    <div class="gallery-item-card" data-image-url="https://placehold.co/400x300/021a30/ffffff?text=صورة+2" data-caption="وصف الصورة 2">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/9FJny5qB/jardn1.jpg" data-caption="أحد معامل كلية الطب البشري">
                         <div class="gallery-img-container">
-                            <img src="https://placehold.co/400x300/021a30/ffffff?text=صورة+2" alt="صورة 2">
+                            <img src="https://i.postimg.cc/9FJny5qB/jardn1.jpg" alt="صورة 2">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">وصف الصورة 2</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد معامل كلية الطب البشري</h6></div>
                     </div>
-                    <div class="gallery-item-card" data-image-url="https://placehold.co/400x300/00d2b6/021a30?text=صورة+3" data-caption="وصف الصورة 3">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/02BC88wM/487202727-1213326577462841-2461371849633193926-n.jpg" data-caption="التدريب العملي لطلاب طب أسنان">
                         <div class="gallery-img-container">
-                            <img src="https://placehold.co/400x300/00d2b6/021a30?text=صورة+3" alt="صورة 3">
+                            <img src="https://i.postimg.cc/02BC88wM/487202727-1213326577462841-2461371849633193926-n.jpg" alt="صورة 3">
                         </div>
-                        <div class="p-3 text-center"><h6 class="font-bold">وصف الصورة 3</h6></div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">التدريب العملي لطلاب طب أسنان</h6></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- تم تطبيق نفس التعديل على باقي الجامعات (تم اختصار الكود للتكرار، لكنها ستعمل بنفس الطريقة إذا أضفت لها data-image-url) -->
-        <!-- ... باقي صفحات الجامعات ... -->
-        <!-- لتفعيل المعرض في باقي الصفحات، فقط أضف data-image-url و data-caption لعناصر .gallery-item-card كما فعلت أعلاه -->
+        <!-- === 🟢 بداية الصفحات الجديدة لجامعات ليبيا === -->
+
+        <!-- صفحة جامعة العرب الطبية -->
+        <div id="uni-tripoli" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة العرب الطبية</h2>
+                <p class="text-lg text-gray-700 mb-2">جامعة العرب الطبية هي جامعة جامعة العرب للعلوم الطبية والتكنولوجيا، التي تقع في مدينة بنغازي، ليبيا. تأسست كلية الطب البشري في عام 2024.</p>
+				<p class="text-lg text-gray-700 mb-2">تعتمد نظام الدراسة بالموديولات الحديثة لمدة خمس سنوات تتبعها سنتان تدريبية (الامتياز) للحصول على بكالوريوس الطب والجراحة.</p>
+				<p class="text-lg text-gray-700 mb-2">تفتح الجامعة أبواب التسجيل في كليات أخرى مثل طب الأسنان والصيدلة. </p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>كلية الطب البشري</li>
+					<li>كلية طب الفم والأسنان</li>
+					<li>كلية العلاج الطبيعي</li>
+                    <li>كلية الصيدلة</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <!-- مثال لصورة ... كرر هذا البلوك لإضافة صور -->
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/CLt818yQ/12.jpg" data-caption="تعاون بين جامعة العرب وجامعة بنها الأهلية">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/CLt818yQ/12.jpg" alt="تعاون بين جامعة العرب وجامعة بنها الأهلية">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">تعاون بين جامعة العرب وجامعة بنها الأهلية</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/sf7qKYmx/11.jpg" data-caption="أحد قاعات الجامعة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/sf7qKYmx/11.jpg" alt="أحد قاعات الجامعة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد قاعات الجامعة</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/tJbjD2VN/13.jpg" data-caption="أحد معامل الجامعة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/tJbjD2VN/13.jpg" alt="أحد معامل الجامعة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد معامل الجامعة</h6></div>
+                    </div>
+                    <!-- نهاية المثال -->
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة السلام الدولية -->
+        <div id="uni-benghazi" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة السلام الدولية</h2>
+                <p class="text-lg text-gray-700 mb-2">جامعة السلام الدولية - بنغازي هي صرح تعليمي خاص أسست عام 2017م.</p>
+                <p class="text-lg text-gray-700 mb-2">معتمدة محليًا من مركز ضمان الجودة، وحصلت مؤخرًا على الاعتماد الدولي.</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>كلية الصيدلة</li>
+					<li>كلية العلاج الطبيعي</li>
+					<li>كلية العلوم الطبية والصحية</li>
+                    <li>كلية الهندسة</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/9f8Mz3KZ/14.jpg" data-caption="التدريب العملي للطلاب">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/9f8Mz3KZ/14.jpg" alt="التدريب العملي للطلاب">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">التدريب العملي للطلاب</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/cJHxp9Cm/15.jpg" data-caption="أحد معامل كلية صيدلة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/cJHxp9Cm/15.jpg" alt="أحد معامل كلية صيدلة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد معامل كلية صيدلة</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/KvDmRSgv/16.jpg" data-caption="مكتبة ضخمة داعمة للطلاب">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/KvDmRSgv/16.jpg" alt="مكتبة ضخمة داعمة للطلاب">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">مكتبة ضخمة داعمة للطلاب</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة التحدي -->
+        <div id="uni-misrata" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة التحدي</h2>
+                <p class="text-lg text-gray-700 mb-2">جامعة التحدي الطبية الأهلية هي جامعة خاصة في بنغازي، ليبيا.</p>
+                <p class="text-lg text-gray-700 mb-2"> تأسست الجامعة منذ حوالي 25 عامًا.</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>كلية طب الفم والأسنان</li>
+					<li>كلية الصيدلة</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/KvxR95Pn/17.jpg" data-caption="جزء العملي لطلاب صيدلة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/KvxR95Pn/17.jpg" alt="جزء العملي لطلاب صيدلة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">جزء العملي لطلاب صيدلة</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/nz1tMqCR/18.jpg" data-caption="جزء العملي لطلاب طب أسنان">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/nz1tMqCR/18.jpg" alt="جزء العملي لطلاب طب أسنان">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">جزء العملي لطلاب طب أسنان</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/vBbJRD3q/19.jpg" data-caption="شرح جزء العملي لطب أسنان">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/vBbJRD3q/19.jpg" alt="شرح جزء العملي لطب أسنان">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">شرح جزء العملي لطب أسنان</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة قورينا -->
+        <div id="uni-libya-international" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة قورينا</h2>
+                <p class="text-lg text-gray-700 mb-2">جامعة قورينا الدولية هي جامعة خاصة أنشئت في بنغازي عام 2017.</p>
+				<p class="text-lg text-gray-700 mb-2">تركز بشكل أساسي على التخصصات الطبية.</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>كلية طب الفم والأسنان</li>
+					<li>كلية الصيدلة</li>
+					<li>كلية العلاج الطبيعي</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/rFsCncCD/20.jpg" data-caption="مكتبة الجامعة لدعم الطلاب">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/rFsCncCD/20.jpg" alt="مكتبة الجامعة لدعم الطلاب">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">مكتبة الجامعة لدعم الطلاب</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/T1pL92Mf/21.jpg" data-caption="أحد قاعات الجامعة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/T1pL92Mf/21.jpg" alt="أحد قاعات الجامعة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">أحد قاعات الجامعة</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/6QWQc6nF/22.jpg" data-caption="حملة التوعية بسرطان الثدي">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/6QWQc6nF/22.jpg" alt="حملة التوعية بسرطان الثدي">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">حملة التوعية بسرطان الثدي</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة افريقيا -->
+        <div id="uni-afriqiya" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة افريقيا</h2>
+                <p class="text-lg text-gray-700 mb-2">جامعة أفريقيا الأهلية في بنغازي هي أول جامعة خاصة معتمدة في ليبيا.</p>
+				<p class="text-lg text-gray-700 mb-2">تأسست عام 2000 وتُعرف بمستواها التعليمي المتميز.</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>كلية الصيدلة</li>
+					<li>كلية الهندسة المعمارية</li>
+					<li>كلية هندسة البترول</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/N0dR7z93/23.jpg" data-caption="جانب من الاحتفال باليوم العالمي للصيدلي">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/N0dR7z93/23.jpg" alt="جانب من الاحتفال باليوم العالمي للصيدلي">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">جانب من الاحتفال باليوم العالمي للصيدلي</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/tgcsc839/24.jpg" data-caption="من التدريب العملي لطلاب كلية هندسة">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/tgcsc839/24.jpg" alt="من التدريب العملي لطلاب كلية هندسة">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">من التدريب العملي لطلاب كلية هندسة</h6></div>
+                    </div>
+					<div class="gallery-item-card h-full flex flex-col" data-image-url="https://i.postimg.cc/P5rN5dK8/25.jpg" data-caption="تدريب عملي لطلاب هندسة البترول">
+                        <div class="gallery-img-container">
+                            <img src="https://i.postimg.cc/P5rN5dK8/25.jpg" alt="تدريب عملي لطلاب هندسة البترول">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">تدريب عملي لطلاب كلية هندسة البترول</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- === 🟢 نهاية صفحات ليبيا === -->
+
+        <!-- === 🟢 بداية الصفحات الجديدة لجامعات أوزبكستان === -->
+
+        <!-- صفحة جامعة آسيا الدولية فى بخارى -->
+        <div id="uni-tashkent-medical" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة آسيا الدولية فى بخارى</h2>
+                <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>... (أضف التخصص 1) ...</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://placehold.co/600x400/00d2b6/white?text=صورة+1" data-caption="وصف الصورة الأولى">
+                        <div class="gallery-img-container">
+                            <img src="https://placehold.co/600x400/00d2b6/white?text=صورة+1" alt="صورة 1">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">وصف الصورة الأولى</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة الفراجانوس طشقند -->
+        <div id="uni-samarkand-medical" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الفراجانوس طشقند</h2>
+                <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>... (أضف التخصص 1) ...</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://placehold.co/600x400/00d2b6/white?text=صورة+1" data-caption="وصف الصورة الأولى">
+                        <div class="gallery-img-container">
+                            <img src="https://placehold.co/600x400/00d2b6/white?text=صورة+1" alt="صورة 1">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">وصف الصورة الأولى</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة جامعة الابتكار بخارى -->
+        <div id="uni-tashkent-it" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">جامعة الابتكار بخارى</h2>
+                <p class="text-lg text-gray-700 mb-8">... (أضف وصف الجامعة هنا) ...</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>... (أضف التخصص 1) ...</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://placehold.co/600x400/00d2b6/white?text=صورة+1" data-caption="وصف الصورة الأولى">
+                        <div class="gallery-img-container">
+                            <img src="https://placehold.co/600x400/00d2b6/white?text=صورة+1" alt="صورة 1">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">وصف الصورة الأولى</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- صفحة معهد طب الأطفال -->
+        <div id="uni-tashkent-pediatric" class="university-page hidden min-h-screen p-6 md:p-12">
+            <button class="back-to-main-btn mb-8 bg-[#00d2b6] text-[#021a30] font-bold py-2 px-6 rounded-full hover:bg-white shadow-lg transition-all"><i class="fas fa-arrow-right me-2"></i> رجوع للرئيسية</button>
+            <div class="bg-white rounded-xl shadow-xl p-8">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">معهد طب الأطفال</h2>
+                <p class="text-lg text-gray-700 mb-8">... (أضف وصف المعهد هنا) ...</p>
+                
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">التخصصات المتاحة</h3>
+                <ul class="list-disc list-inside space-y-2 text-lg mb-8">
+                    <li>... (أضف التخصص 1) ...</li>
+                </ul>
+
+                <h3 class="text-3xl font-bold text-gray-800 mb-6">معرض الصور الخاص بالجامعة</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item-card h-full flex flex-col" data-image-url="https://placehold.co/600x400/00d2b6/white?text=صورة+1" data-caption="وصف الصورة الأولى">
+                        <div class="gallery-img-container">
+                            <img src="https://placehold.co/600x400/00d2b6/white?text=صورة+1" alt="صورة 1">
+                        </div>
+                        <div class="p-3 text-center flex-grow flex flex-col justify-center"><h6 class="font-bold">وصف الصورة الأولى</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- === 🟢 نهاية صفحات أوزبكستان === -->
 
     </div>
 
@@ -562,30 +899,86 @@
             }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
             document.querySelectorAll('[data-scroll-anim]').forEach((el) => scrollObserver.observe(el));
 
-            // --- 4. سكربت نظام الصفحات ---
+            // --- 4. سكربت نظام الصفحات (تم التعديل بالكامل ليستخدم History API) ---
             const mainContent = document.querySelector('main');
             const mainFooter = document.querySelector('footer');
-            const sectionsToToggle = [mainContent, mainFooter].filter(el => el); 
+            const sectionsToToggle = [mainContent, mainFooter].filter(el => el);
+            const allUniversityPages = document.querySelectorAll('.university-page');
 
+            // --- 🟢 (جديد) وظيفة مركزية لإظهار الصفحات ---
+            function showPage(pageId) {
+                // 1. إخفاء كل الصفحات
+                allUniversityPages.forEach(page => page.classList.add('hidden'));
+                
+                if (!pageId || pageId === 'main') {
+                    // 2. إظهار المحتوى الرئيسي
+                    sectionsToToggle.forEach(sec => sec.classList.remove('hidden'));
+                    // 3. التأكد من أننا في أعلى الصفحة
+                    window.scrollTo(0, 0);
+                } else {
+                    // 2. إخفاء المحتوى الرئيسي
+                    sectionsToToggle.forEach(sec => sec.classList.add('hidden'));
+                    // 3. إظهار الصفحة المطلوبة
+                    const targetPage = document.getElementById(pageId);
+                    if (targetPage) {
+                        targetPage.classList.remove('hidden');
+                        window.scrollTo(0, 0);
+                    } else {
+                        // إذا كانت الصفحة المطلوبة غير موجودة، أظهر الرئيسية
+                        sectionsToToggle.forEach(sec => sec.classList.remove('hidden'));
+                    }
+                }
+            }
+
+            // --- 🟢 (تعديل) مستمع النقر لإدارة الـ history ---
             document.body.addEventListener('click', (e) => {
                 const uniLink = e.target.closest('a.university-card-link');
                 const backBtn = e.target.closest('.back-to-main-btn');
+
                 if (uniLink) {
-                    e.preventDefault();
-                    const targetPage = document.getElementById(uniLink.dataset.pageTarget);
-                    if (targetPage) {
-                        sectionsToToggle.forEach(sec => sec.classList.add('hidden'));
-                        targetPage.classList.remove('hidden');
-                        window.scrollTo(0, 0);
+                    e.preventDefault(); // منع الـ href="#"
+                    const targetPageId = uniLink.dataset.pageTarget;
+                    if (targetPageId) {
+                        // 1. إضافة حالة جديدة للتاريخ
+                        const state = { pageId: targetPageId };
+                        history.pushState(state, '', `#${targetPageId}`); // تغيير الـ URL
+                        // 2. إظهار الصفحة
+                        showPage(targetPageId);
                     }
                 }
+                
                 if (backBtn) {
-                    e.preventDefault();
-                    backBtn.closest('.university-page').classList.add('hidden');
-                    sectionsToToggle.forEach(sec => sec.classList.remove('hidden'));
-                    window.scrollTo(0, 0);
+                    e.preventDefault(); // منع أي سلوك افتراضي للزر
+                    // 1. الرجوع خطوة للخلف في الـ history
+                    history.back();
                 }
             });
+
+            // --- 🟢 (جديد) مستمع لأحداث الـ popstate (زر الرجوع/الأمام في المتصفح) ---
+            window.addEventListener('popstate', (e) => {
+                if (e.state && e.state.pageId) {
+                    // إذا كان هناك حالة (state)، أظهر الصفحة
+                    showPage(e.state.pageId);
+                } else {
+                    // إذا لا يوجد hash أو hash خاطئ، اعتبرها الصفحة الرئيسية
+                    <!-- === 🟢 تم تعديل هذا السطر لإصلاح خطأ الأمان === -->
+                    history.replaceState({ pageId: 'main' }, '', '#main'); 
+                    showPage('main');
+                }
+            });
+
+            // --- 🟢 (جديد) معالجة تحميل الصفحة الأولي ---
+            const initialHash = window.location.hash.substring(1);
+            if (initialHash && document.getElementById(initialHash)) {
+                // إذا كان الـ hash موجود ويطابق ID صفحة
+                history.replaceState({ pageId: initialHash }, '', `#${initialHash}`);
+                showPage(initialHash);
+            } else {
+                // إذا لا يوجد hash أو hash خاطئ، اعتبرها الصفحة الرئيسية
+                <!-- === 🟢 تم تعديل هذا السطر أيضاً لإصلاح خطأ الأمان === -->
+                history.replaceState({ pageId: 'main' }, '', '#main');
+                showPage('main');
+            }
 
             // --- 5. 🔴 سكربت المعرض التفاعلي (جديد) ---
             const modal = document.getElementById('imageModal');
